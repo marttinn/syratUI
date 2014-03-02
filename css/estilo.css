@@ -1,0 +1,79 @@
+.Estilodecarcternormal
+{
+  font-family  Source Sans Pro;
+  font-size  10px;
+  letter-spacing  2px;
+  text-transform  uppercase;
+  color  #B3B3B3;
+  color  rgb(179, 179, 179);
+}
+.Estilodecarcternormal1
+{
+  font-family  Source Sans Pro;
+  font-size  10px;
+  letter-spacing  2px;
+  text-transform  uppercase;
+  color  #B3B3B3;
+  color  rgb(179, 179, 179);
+}
+.st0
+{
+  background  #F2F2F2;
+  background  rgba(242, 242, 242, 1);
+  border-style  Solid;
+  border-color  #808080;
+  border-color  rgba(128, 128, 128, 1);
+  border-width  0px;
+}
+.image2
+{
+  background-image  url(image2.png);
+  Para crear una imagen a la que se haga referencia en CSS, utilice el comando 'Exportar CSS seleccionado'.
+  background-repeat  no-repeat;
+}
+.st1
+{
+  border-style  Solid;
+  border-color  #333333;
+  border-color  rgba(51, 51, 51, 1);
+  border-width  1px;
+}
+.st2
+{
+  border-style  Solid;
+  border-color  #333333;
+  border-color  rgba(51, 51, 51, 1);
+  border-width  1px;
+}
+.st3
+{
+  background  #D9D9D9;
+  background  rgba(217, 217, 217, 1);
+}
+.image1
+{
+  background-image  url(image1.png);
+  Para crear una imagen a la que se haga referencia en CSS, utilice el comando 'Exportar CSS seleccionado'.
+  background-repeat  no-repeat;
+}
+.st4
+{
+  border-style  Solid;
+  border-color  #808080;
+  border-color  rgba(128, 128, 128, 1);
+  border-width  0px;
+}
+.image
+{
+  background-image  url(image.png);
+  Para crear una imagen a la que se haga referencia en CSS, utilice el comando 'Exportar CSS seleccionado'.
+  background-repeat  no-repeat;
+}
+
+/* fuentes */
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300);
+
+.sourceSans{
+  font-family: 'Source Sans Pro', sans-serif;
+
+}
