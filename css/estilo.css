@@ -1,6 +1,5 @@
 /* fuentes */
-@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300);
-
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200);
 
 body
 {
@@ -9,7 +8,7 @@ body
   width: 100%;
   min-height: 100%;
 }
-
+/*
 .subLabel
 {
   font-family: 'Source Sans Pro';
@@ -18,8 +17,6 @@ body
   text-transform:  uppercase;
   color:  #B3B3B3;
   color:  rgb(179, 179, 179);
-
-
 }
 
 .usuarioFloat
@@ -30,15 +27,16 @@ left: 680px;
 }
 .passFloat
 {
-
 position: absolute;
 bottom: 20px;
 left: 660px;
 }
+*/
+
 
 .botLogin
 {
-  margin-top: 70px;
+  margin-top: 10px;
   margin-left: 155px;
 }
 .brBack
@@ -53,8 +51,8 @@ left: 660px;
   background : rgba(242, 242, 242, 1);
   border-style : solid;
   border-color : #808080;
-  border-color : rgba(128, 128, 128, 1);
-  border-width : 0px;
+  border-color : rgba(180, 180, 180, 1);
+  border-width : 1px;
 }
 
 .panelLogin{
@@ -78,46 +76,118 @@ left: 660px;
 
 .footerLine
 {
-  border-style : solid;
-  border-color : #808080;
-  border-color : rgba(128, 128, 128, 1);
-  border-width : 0px;
+  position: relative;
+  margin-top: 150px;
+  margin: 0 auto;
+  border-bottom-style : solid;
+  border-bottom-color : #808080;
+  border-bottom-color : rgba(128, 128, 128, 1);
+  border-bottom-width : 1px;
 }
 
 
-
+/*
 .sourceSans
 {
   font-family: 'Source Sans Pro', sans-serif;
 
 }
+*/
 
 .center
 {
   margin: 0 auto;
 }
-
+/*
 .inlineCont
 {
   width: 100%;
 }
+*/
+.logoLogin{
+  position: relative;
+  margin-bottom: 50px;
+}
+
+
+.inlineCont{
+  position: relative;
+  margin-bottom: 90px;
+  margin-left: 55px;
+}
+
+
+.inlineCont input[type="text"]{
+  font-family: 'Source Sans Pro' ;
+  font-weight: 200;
+  letter-spacing:2px;
+  text-align: center;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid #333333;
+  background: none;
+
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  outline: none;
+  font-size: 1em;
+  padding: 0.2em 0.6em;
+  width: 100%;
+}
+.inlineCont input[type="password"]{
+  font-family: 'Source Sans Pro' ;
+  font-weight: 200;
+  letter-spacing:2px;
+  text-align: center;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid #333333;
+  background: none;
+
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  outline: none;
+  font-size: 1em;
+  padding: 0.2em 0.6em;
+  width: 100%;
+}
+.inlineCont:before, .inlineCont:after{
+  content:'';
+  display: block;
+  
+  position: absolute;
+  bottom: 2px;
+  
+  height: 6px;
+  border-left: 2px solid #333333;
+}
+.inlineCont:before{
+  left: 0;
+}
+.inlineCont:after{
+  right: 0;
+}
+
 .imgLogo
 {
   width: 100px;
   margin-top: 40px;
-   margin-left: 130px;
+  margin-left: 130px;
 
 }
 
 .goButton
 {
   background-image: url(../img/goButton.svg), none;
+    margin-bottom: 0px;
     background-position:  0px 0px;
     background-repeat: no-repeat;
-    width: 186px;
+    width: 53px;
     height: 53px;
     border: 0px;
-    background-color: none;
+    background-color: rgba(0, 0, 0, 0);
     cursor: pointer;
     outline: 0;
 }
