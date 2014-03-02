@@ -69,3 +69,11 @@
   Para crear una imagen a la que se haga referencia en CSS, utilice el comando 'Exportar CSS seleccionado'.
   background-repeat  no-repeat;
 }
+
+/* fuentes */
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300);
+
+.sourceSans{
+  font-family: 'Source Sans Pro', sans-serif;
+
+}
