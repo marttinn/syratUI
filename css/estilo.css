@@ -44,10 +44,10 @@ body
 
 .subInput
 {
-  border-style : solid;
-  border-color : #333333;
-  border-color : rgba(51, 51, 51, 1);
-  border-width : 1px;
+  border-bottom-style : solid;
+  border-bottom-color : #333333;
+  border-bottom-color : rgba(51, 51, 51, 1);
+  border-bottom-width : 1px;
 }
 
 .footerLine
@@ -66,3 +66,25 @@ body
 
 }
 
+.center
+{
+  margin: 0 auto;
+}
+
+.inlineCont
+{
+  width: 100%;
+}
+
+.goButton
+{
+  background-image: url(../img/goButton.svg);
+    background-position:  0px 0px;
+    background-repeat: no-repeat;
+    /*width: 186px;
+    height: 53px;*/
+    border: 0px;
+    background-color: none;
+    cursor: pointer;
+    outline: 0;
+}
