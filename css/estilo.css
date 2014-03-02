@@ -1,11 +1,24 @@
+/* fuentes */
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300);
+
+
+body
+{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100%;
+}
+
 .subLabel
 {
-  font-family  Source Sans Pro;
-  font-size  10px;
-  letter-spacing  2px;
-  text-transform  uppercase;
-  color  #B3B3B3;
-  color  rgb(179, 179, 179);
+  font-family: 'Source Sans Pro';
+  font-size:  10px;
+  letter-spacing:  2px;
+  text-transform:  uppercase;
+  color:  #B3B3B3;
+  color:  rgb(179, 179, 179);
+}
 
 .brBack
 {
@@ -17,7 +30,7 @@
 {
   background : #F2F2F2;
   background : rgba(242, 242, 242, 1);
-  border-style : Solid;
+  border-style : solid;
   border-color : #808080;
   border-color : rgba(128, 128, 128, 1);
   border-width : 0px;
@@ -25,25 +38,32 @@
 
 .subInput
 {
-  border-style  Solid;
-  border-color  #333333;
-  border-color  rgba(51, 51, 51, 1);
-  border-width  1px;
+  border-style : solid;
+  border-color : #333333;
+  border-color : rgba(51, 51, 51, 1);
+  border-width : 1px;
 }
 
 .footerLine
 {
-  border-style  Solid;
-  border-color  #808080;
-  border-color  rgba(128, 128, 128, 1);
-  border-width  0px;
+  border-style : solid;
+  border-color : #808080;
+  border-color : rgba(128, 128, 128, 1);
+  border-width : 0px;
+}
+
+.wrapper
+{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 
-/* fuentes */
-@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300);
-
-.sourceSans{
+.sourceSans
+{
   font-family: 'Source Sans Pro', sans-serif;
 
 }
+
