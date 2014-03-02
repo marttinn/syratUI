@@ -4,7 +4,7 @@
 
 body
 {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   width: 100%;
   min-height: 100%;
@@ -36,6 +36,12 @@ body
   border-width : 0px;
 }
 
+.panelLogin{
+  width: 35%;
+  min-width: 320px;
+  margin: 200px auto;
+}
+
 .subInput
 {
   border-style : solid;
@@ -52,13 +58,6 @@ body
   border-width : 0px;
 }
 
-.wrapper
-{
-  height: 100%;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-}
 
 
 .sourceSans
