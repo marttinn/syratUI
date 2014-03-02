@@ -13,13 +13,34 @@ body
 .subLabel
 {
   font-family: 'Source Sans Pro';
-  font-size:  10px;
+  font-size:  16px;
   letter-spacing:  2px;
   text-transform:  uppercase;
   color:  #B3B3B3;
   color:  rgb(179, 179, 179);
+
+
 }
 
+.usuarioFloat
+{
+  position: absolute;
+bottom: 140px;
+left: 680px;
+}
+.passFloat
+{
+
+position: absolute;
+bottom: 20px;
+left: 660px;
+}
+
+.botLogin
+{
+  margin-top: 70px;
+  margin-left: 155px;
+}
 .brBack
 {
   background : #D9D9D9;
@@ -51,6 +72,8 @@ body
   margin-top: 90px;
   width: 250px;
   font-size: 18px;
+  margin-left: 55px;
+
 }
 
 .footerLine
