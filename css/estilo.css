@@ -248,3 +248,24 @@ input[type="checkbox"].ios-switch:checked + div > div {
     cursor: pointer;
     outline: 0;
 }
+
+
+/*INICIO DE ESTILO AVISO DE PRIVACIDAD*/
+
+.panpBack
+{
+  background : #333333;
+  background : rgba(51, 51, 51, 1);
+  border-style : Solid;
+  border-color : #1e1e1e;
+  border-color : rgba(30, 30, 30, 1);
+  border-width : 1px;
+}
+
+.panelPrivacy{
+  width: 960px;
+  height: 500px;
+  margin: 100px auto;
+}
+
+/*FIN DE ESTILO AVISO DE PRIVACIDAD*/
