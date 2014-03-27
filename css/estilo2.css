@@ -57,6 +57,9 @@ body
   color: #1e5da2;
 }
 
+.textUppercase{
+  text-transform: uppercase;
+}
 /*--------------BOOTSTRAP------------*/
 
 .panBack
