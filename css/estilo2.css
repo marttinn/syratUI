@@ -1,5 +1,6 @@
 /* fuentes */
-@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300);
+/*@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300);*/
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200);
 
 body
 {
@@ -37,6 +38,26 @@ body
   border-color : #B9B9B9;
   border-width : 1px;
 
+}
+
+.blueTitle
+{
+font-family: 'Source Sans Pro' ;
+font-size: 14px;
+font-weight: 300;
+color: #1e5da2;
+letter-spacing:2px;
+margin-left: 20px;
+}
+
+
+.centerText{
+  text-align: center;
+}
+
+.masInfoHeight{
+  margin-bottom: 5px !important;
+  margin-top: 5px !important;
 }
 
 .bprinc
@@ -127,6 +148,28 @@ body
   margin-left: 55px;
 }
 
+label{
+  font-weight: 300 !important;
+  color: #8e8e8e;
+  font-size: 12px;
+}
+
+.formStyle {
+  {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid #333333;
+  background: none;
+
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  outline: none;
+  font-size: 1em;
+  padding: 0.2em 0.6em;
+  width: 100%;
+}
+}
 
 .inlineCont input[type="text"]{
   font-family: 'Source Sans Pro' ;
