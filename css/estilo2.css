@@ -155,11 +155,10 @@ label{
 }
 
 .formStyle {
-  {
   border-top: none;
   border-left: none;
   border-right: none;
-  border-bottom: 2px solid #333333;
+  border-bottom: 1px solid #333333;
   background: none;
 
   box-sizing: border-box;
@@ -169,7 +168,18 @@ label{
   padding: 0.2em 0.6em;
   width: 100%;
 }
+
+.formStyle1:before[class="formStyle1"], .formStyle1:after[class="formStyle1"] {
+  content:'';
+  display: block;
+  
+  position: absolute;
+  bottom: 1px;
+  
+  height: 4px;
+  border-left: 1px solid #333333;
 }
+
 
 .inlineCont input[type="text"]{
   font-family: 'Source Sans Pro' ;
@@ -217,10 +227,10 @@ label{
   height: 6px;
   border-left: 2px solid #333333;
 }
-.inlineCont:before{
+.inlineCont:before, .formStyle:before{
   left: 0;
 }
-.inlineCont:after{
+.inlineCont:after, .formStyle:after{
   right: 0;
 }
 
