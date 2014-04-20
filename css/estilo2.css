@@ -93,6 +93,10 @@ margin-left: 20px;
   border-width : 1px;
 }
 
+.dateMenu{
+  border-radius: 0px !important;
+}
+
 .panelLogin{
   width: 360px;
   height: 500px;
