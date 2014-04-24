@@ -266,7 +266,8 @@ input[type="checkbox"].ios-switch + div {
   -webkit-transition-duration: .4s;
   -webkit-transition-property: background-color, box-shadow;
   box-shadow: inset 0 0 0 0px rgba(0,0,0,0.4);
-  margin: -37px 48em 37px 16.7em;
+  margin: -10px 25px;
+  margin-top: 0px;
 }
 
 /* Green Track */
@@ -337,6 +338,10 @@ input[type="checkbox"].ios-switch:checked + div > div {
   width: 960px;
   height: 500px;
   margin: 100px auto;
+}
+
+.formSwitch{
+  margin-top: 10px !important;
 }
 
 /*FIN DE ESTILO AVISO DE PRIVACIDAD*/
