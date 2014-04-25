@@ -69,7 +69,7 @@
 
 
 		<div class="row grsec form-group" > <h1 class="blueTitle" >INFORMACIÓN ASEGURADO</h1>
-				<div class="col-xs-4">
+				<div class="formLine col-xs-4">
 					<input class="formStyle"type="text">
 					<label style="padding-left: 2px;">nombre del asegurado</label>
 				</div>
@@ -146,18 +146,35 @@
                 </div> 
                 <div class="col-xs-2">
 					<input class="formStyle"type="text">
-					<label style="padding-left: 2px;">no. folio</label>              
-                </div> 
-
-			
+					<label style="padding-left: 2px;">no. folio</label>      
+               	</div>
+               	
+             
+                <div class="col-xs-3">
+					<label style="padding-left: 0px; margin-top: 10px;">siniestro por</label><h9 style="padding-left: 2px; font-size: 12px;">robo</h9>
+					<label><input type="checkbox" class="ios-switch green" /><div><div></div></div></label><h8 style="padding-left: 3px; font-size: 12px;">accidente</h8>
+                </div>
+                <div class="col-xs-3">
+					<label style="padding-left: 6px; margin-top: 10px;">equipo especial amparado</label><h9 style="padding-left: 2px; font-size: 12px;">sí</h9>		
+					<label><input type="checkbox" class="ios-switch green" /><div><div></div></div></label><h9 style="padding-left: 3px; font-size: 12px;">no</h9>
+                </div>
+                <div class="col-xs-3">
+					<label style="padding-left: 28px; margin-top: 10px;">requiere grúa</label><h9 style="padding-left: 2px; font-size: 12px;">sí</h9>		
+					<label><input type="checkbox" class="ios-switch green" /><div><div></div></div></label><h9 style="padding-left: 3px; font-size: 12px;">no</h9>
+                </div>
+                <div class="col-xs-3">
+					<label style="padding-left: 0px; margin-top: 18px;"></label><h9 style="padding-left: 2px; font-size: 12px;">asegurado</h9>
+					<label><input type="checkbox" class="ios-switch green" /><div><div></div></div></label><h9 style="padding-left: 2px; font-size: 12px;">tercero</h9>
+                </div>
+           
 		</div>
-
+<!--IMAGENES-->
 		<div class="row form-group" > <h1 class="blueTitle" > </h1></div>
 		<div class="row grsec form-group" > <h1 class="blueTitle" >INFORMACIÓN SECUNDARIA DEL SINIESTRO	</h1>
-			<div class="col-xs-4">
-				<form action="demo_form.asp">
-  				<input type="file" name="pic" accept="image/*">
-  				<input type="submit">
+			<div class="col-xs-10">
+				<form class="goButton"a ction="imageform.asp">
+  				<input type="file" name="" accept="image/*">
+  				<input type="submit" class="goButton">
 				</form>
 			</div>
 		</div>
