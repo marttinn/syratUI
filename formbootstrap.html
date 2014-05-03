@@ -7,9 +7,8 @@
 	<link rel="stylesheet" type="text/css" href="css/estilo2.css">
 	<link rel="stylesheet" type="text/css" href="css/datepicker.css">
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
-
-</head>
-
+	<link rel="stylesheet" type="text/css" href="css/jasny-bootstrap.min.css">
+	
 <body>
 	<div class="container sourcesans" >
 		<div class="row bprinc" style="height:100px">
@@ -18,11 +17,17 @@
 		</div>
 		<form role="form" class="form textUppercase">
 
-
+<!--                                                  -->
 
 		<div class="row grsec form-group" >
 				<h1 class="blueTitle" >INFORMACIÓN PRIMARIA DEL SINIESTRO</h1>
-
+				<div class="col-xs-2">
+					<select class="formStyle"> 
+						<option>AXA</option>
+						<option>Qualitas</option>
+					</select>
+					<label style="padding-left: 2px;">Compañía de Seguros</label>
+				</div>
 				<div class="col-xs-2">
 					<input class="formStyle"type="text">
 					<label style="padding-left: 2px;">NO. DE SINIESTRO</label>
@@ -35,137 +40,130 @@
 					<input class="formStyle"type="text">
 					<label style="padding-left: 2px;">no. de inciso</label>
 				</div>
-<!-- 			ESTE NO VA
-			<div class="col-xs-2">
-					<input class="formStyle datepicker"type="text">
-					<label style="padding-left: 2px;">fecha de exp. doc.</label>
-				</div> -->
+				<div class="col-xs-2">
+					<input class="formStyle"type="text">
+					<label style="padding-left: 2px;">no. de serie</label>
+				</div>
+
 				<div class="col-xs-2">
 					<input class="formStyle datepicker"type="text">
 					<label style="padding-left: 2px;">fecha de siniestro</label>
 				</div>
 				<div class="col-xs-5">
-					<input class="formStyle datepicker"type="text">
-					<label style="padding-left: 2px;">nombre del propietario</label>
-				</div>
-<!-- 			EMAIL SI VA !
-	<div class="col-xs-4">
-					<input class="formStyle datepicker"type="text">
-					<label style="padding-left: 2px;">correo electrónico</label>
-				</div> -->
-				<div class="col-xs-3">
-					<input class="formStyle datepicker"type="text">
-					<label style="padding-left: 2px;">teléfono</label>
-				</div>
-				<div class="col-xs-2">
-					<input class="formStyle datepicker"type="text">
-					<label style="padding-left: 2px;">deducible</label>
-				</div>
-				<div class="col-xs-2">
-					<input class="formStyle datepicker"type="text">
-					<label style="padding-left: 2px;">valor comercial</label>
-				</div>
-
-		</div>
-
-		<div class="row form-group" > <h3 class="blueTitle centerText masInfoHeight" >MÁS INFORMACIÓN</h3></div>
-
-
-		<div class="row grsec form-group" > <h1 class="blueTitle" >INFORMACIÓN ASEGURADO</h1>
-				<div class="formLine col-xs-4">
 					<input class="formStyle"type="text">
 					<label style="padding-left: 2px;">nombre del asegurado</label>
 				</div>
-				<div class="col-xs-2">
+				<div class="col-xs-3">
 					<input class="formStyle"type="text">
 					<label style="padding-left: 2px;">teléfono</label>
 				</div>
-				<div class="col-xs-2">
-					<input class="formStyle"type="text">
-					<label style="padding-left: 2px;">estatus cobranza</label>
-				</div>
-				<div class="col-xs-4">
-					<input class="formStyle"type="text">
-					<label style="padding-left: 2px;">agente</label>
-				</div>
-
-
-				<div class="row">
-					<div class="col-xs-6">
-					<label style="padding-left: 18px; margin-top: 10px;">tercero asegurado por [seguro]</label>
-					<label><input type="checkbox" class="ios-switch green" /><div><div></div></div></label>
-                	</div>
-                	<div class="col-xs-6">
-					<label style="padding-left: 18px; margin-top: 10px;">condiciones especiales de [seguro]</label>
-					<label><input type="checkbox" class="ios-switch green" /><div><div></div></div></label>
-                	</div>
-                </div>
-
-				<div class="row"> <h1 class="col-xs-12 blueTitle" >INFORMACIÓN VEHÍCULO ASEGURADO Y/O TERCERO</h1></div>
-
 				<div class="col-xs-3">
 					<input class="formStyle"type="text">
-					<label style="padding-left: 2px;">nombre del tercero afectado</label>
-        </div>
+					<label style="padding-left: 2px;">e-mail</label>
+				</div>
+				<div class="col-xs-3">
+					<input class="formStyle"type="text">
+					<label style="padding-left: 2px;">Horario de Contacto</label>
+				</div>
+				<div class="col-xs-3">
+					<input class="formStyle"type="text" placeholder="0.0%">
+					<label style="padding-left: 2px;">% Deducible</label>
+
+				</div>
+				<div class="col-xs-3">
+					<input class="formStyle"type="text">
+					<label style="padding-left: 2px;">Valor Comercial</label>
+				</div>
+				<div class="col-xs-3">
+					<input class="formStyle"type="text">
+					<label style="padding-left: 2px;">Monto Deducible</label>
+				</div>
+				<div class="col-xs-3">
+					<label style="padding-left: 6px; margin-top: 10px;">Estatus de Cobranza</label><h9 style="padding-left: 2px; font-size: 12px;">sí</h9>
+					<label><input type="checkbox" class="ios-switch green" /><div><div></div></div></label><h9 style="padding-left: 3px; font-size: 12px;">no</h9>
+                </div>
+
+
+
+<!--                                                  -->
+
+
+                <h1 class="col-xs-12 blueTitle" >INFORMACIÓN VEHÍCULO</h1>
 
 				<div class="col-xs-2">
 					<input class="formStyle"type="text">
 					<label style="padding-left: 2px;">marca</label>
-        </div>
-
-        <div class="col-xs-2">
-					<input class="formStyle"type="text">
-					<label style="padding-left: 2px;">tipo</label>
-        </div>
-
-				<div class="col-xs-2">
+       			</div>
+       			<div class="col-xs-2">
 					<input class="formStyle"type="text">
 					<label style="padding-left: 2px;">modelo</label>
-        </div>
-
-                <div class="col-xs-1">
-					<input class="formStyle"type="number">
-					<label style="padding-left: 2px;">puertas</label>
-                </div>
-                <div class="col-xs-2">
+        		</div>
+        		<div class="col-xs-2">
 					<input class="formStyle"type="text">
 					<label style="padding-left: 2px;">color</label>
                 </div>
-
-                <div class="col-xs-2">
+        		<div class="col-xs-2">
 					<input class="formStyle"type="text">
-					<label style="padding-left: 2px;">no. de serie</label>
-                </div>
-                <div class="col-xs-2">
+					<label style="padding-left: 2px;">tipo</label>
+        		</div>
+        		<div class="col-xs-2">
 					<input class="formStyle"type="text">
-					<label style="padding-left: 2px;">no. de motor</label>
+					<label style="padding-left: 2px;">año</label>
                 </div>
                 <div class="col-xs-2">
 					<input class="formStyle"type="text">
 					<label style="padding-left: 2px;">placas</label>
                 </div>
-                <div class="col-xs-2">
-					<input class="formStyle"type="text">
-					<label style="padding-left: 2px;">inventario</label>
-                </div>
-                <div class="col-xs-2">
-					<input class="formStyle"type="text">
-					<label style="padding-left: 2px;">no. econ.</label>
-                </div>
-                <div class="col-xs-2">
-					<input class="formStyle"type="text">
-					<label style="padding-left: 2px;">no. folio</label>
-               	</div>
+
+				
+
+		</div>
+
+<!--                                                  -->
 
 
+		<div class="row form-group" > <h3 class="blueTitle centerText masInfoHeight" >más información</h3></div>
+
+
+<!--                                                  -->
+
+		<div class="row grsec form-group" > <h1 class="blueTitle" >Información para el ajustador</h1>
+				<div class="formLine col-xs-4">
+					<input class="formStyle"type="text">
+					<label style="padding-left: 2px;">agente ajustador</label>
+				</div>
+				<div class="col-xs-2">
+					<input class="formStyle"type="text">
+					<label style="padding-left: 2px;">tercero asegurado</label>
+				</div>
+				<div class="col-xs-2">
+					<input class="formStyle"type="text">
+					<label style="padding-left: 2px;">condiciones especiales</label>
+				</div>
+				<div class="col-xs-4">
+					<input class="formStyle"type="text">
+					<label style="padding-left: 2px;">Nombre tercero afectado</label>
+				</div>
+				<div class="col-xs-4">
+					<input class="formStyle"type="text" placeholder="opcional">
+					<label style="padding-left: 2px;">Número de motor</label>
+				</div>				
+             
+<!--                                                  -->
+
+				<h1 class="col-xs-12 blueTitle" >INFORMACIÓN SECUNDARIA</h1>
                 <div class="col-xs-3">
 					<label style="padding-left: 0px; margin-top: 10px;">siniestro por</label><h9 style="padding-left: 2px; font-size: 12px;">robo</h9>
-					<label><input type="checkbox" class="ios-switch green" /><div><div></div></div></label><h8 style="padding-left: 3px; font-size: 12px;">accidente</h8>
+					<label><input type="checkbox" class="ios-switch green" /><div><div></div></div></label><h8 style="padding-left: 3px; font-size: 12px;">colisión</h8>
                 </div>
                 <div class="col-xs-3">
 					<label style="padding-left: 6px; margin-top: 10px;">equipo especial amparado</label><h9 style="padding-left: 2px; font-size: 12px;">sí</h9>
 					<label><input type="checkbox" class="ios-switch green" /><div><div></div></div></label><h9 style="padding-left: 3px; font-size: 12px;">no</h9>
                 </div>
+                <div class="col-xs-2">
+					<input class="formStyle"type="text">
+					<label style="padding-left: 2px;">comentario</label>
+        		</div>
                 <div class="col-xs-3">
 					<label style="padding-left: 28px; margin-top: 10px;">requiere grúa</label><h9 style="padding-left: 2px; font-size: 12px;">sí</h9>
 					<label><input type="checkbox" class="ios-switch green" /><div><div></div></div></label><h9 style="padding-left: 3px; font-size: 12px;">no</h9>
@@ -174,21 +172,140 @@
 					<label style="padding-left: 0px; margin-top: 18px;"></label><h9 style="padding-left: 2px; font-size: 12px;">asegurado</h9>
 					<label><input type="checkbox" class="ios-switch green" /><div><div></div></div></label><h9 style="padding-left: 2px; font-size: 12px;">tercero</h9>
                 </div>
+                <div class="col-xs-3">
+					<label style="padding-left: 28px; margin-top: 10px;">sigue con auto</label><h9 style="padding-left: 2px; font-size: 12px;">sí</h9>
+					<label><input type="checkbox" class="ios-switch green" /><div><div></div></div></label><h9 style="padding-left: 3px; font-size: 12px;">no</h9>
+                </div>
+
+	</div>
+
+<!--                                                  -->
+
+
+		<div class="row form-group" > <h3 class="blueTitle centerText masInfoHeight" >documentación</h3></div>
+
+
+<!--                                                  -->
+
+		<div class="row grsec form-group" > <h1 class="blueTitle" >fotografías del automóvil</h1>
+				<div class="col-xs-3">
+				<div class="fileinput fileinput-new" data-provides="fileinput"><a href="#" class="fileinput-exists" data-dismiss="fileinput"><img style="width: 30px; margin-left: 79%; margin-bottom: -8%; z-index:1000; position: relative;"src="img/DELETE.png" alt="..."></a>
+					  <div class="fileinput-new thumbnail" data-trigger="fileinput" style=" background: none; border: none; width: 170px; height: 120px;">
+					    <img src="img/SY_WEB_1_03.png" alt="...">
+
+					  </div>
+					  <div class="fileinput-preview fileinput-exists thumbnail" style="max-width: 170px; max-height: 120px;"></div>
+					  <div>
+					    <span style="display: none;" class="btn btn-default btn-file"><span  class="fileinput-new">Select image</span><span class="fileinput-exists">Change</span><input type="file" name="..."></span>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-3">
+				<div class="fileinput fileinput-new" data-provides="fileinput"><a href="#" class="fileinput-exists" data-dismiss="fileinput"><img style="width: 30px; margin-left: 79%; margin-bottom: -8%; z-index:1000; position: relative;"src="img/DELETE.png" alt="..."></a>
+					  <div class="fileinput-new thumbnail" data-trigger="fileinput" style=" background: none; border: none; width: 170px; height: 120px;">
+					    <img src="img/SY_WEB_1_03.png" alt="...">
+
+					  </div>
+					  <div class="fileinput-preview fileinput-exists thumbnail" style="max-width: 170px; max-height: 120px;"></div>
+					  <div>
+					    <span style="display: none;" class="btn btn-default btn-file"><span  class="fileinput-new">Select image</span><span class="fileinput-exists">Change</span><input type="file" name="..."></span>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-3">
+				<div class="fileinput fileinput-new" data-provides="fileinput"><a href="#" class="fileinput-exists" data-dismiss="fileinput"><img style="width: 30px; margin-left: 79%; margin-bottom: -8%; z-index:1000; position: relative;"src="img/DELETE.png" alt="..."></a>
+					  <div class="fileinput-new thumbnail" data-trigger="fileinput" style=" background: none; border: none; width: 170px; height: 120px;">
+					    <img src="img/SY_WEB_1_03.png" alt="...">
+
+					  </div>
+					  <div class="fileinput-preview fileinput-exists thumbnail" style="max-width: 170px; max-height: 120px;"></div>
+					  <div>
+					    <span style="display: none;" class="btn btn-default btn-file"><span  class="fileinput-new">Select image</span><span class="fileinput-exists">Change</span><input type="file" name="..."></span>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-3">
+				<div class="fileinput fileinput-new" data-provides="fileinput"><a href="#" class="fileinput-exists" data-dismiss="fileinput"><img style="width: 30px; margin-left: 79%; margin-bottom: -8%; z-index:1000; position: relative;"src="img/DELETE.png" alt="..."></a>
+					  <div class="fileinput-new thumbnail" data-trigger="fileinput" style=" background: none; border: none; width: 170px; height: 120px;">
+					    <img src="img/SY_WEB_1_03.png" alt="...">
+
+					  </div>
+					  <div class="fileinput-preview fileinput-exists thumbnail" style="max-width: 170px; max-height: 120px;"></div>
+					  <div>
+					    <span style="display: none;" class="btn btn-default btn-file"><span  class="fileinput-new">Select image</span><span class="fileinput-exists">Change</span><input type="file" name="..."></span>
+						</div>
+					</div>
+				</div>
+
+
+			<div class="row"></div>
+
+			<h1 class="blueTitle" >Documentos Escaneados</h1>
+				<div class="col-xs-3">
+				<div class="fileinput fileinput-new" data-provides="fileinput"><a href="#" class="fileinput-exists" data-dismiss="fileinput"><img style="width: 30px; margin-left: 79%; margin-bottom: -8%; z-index:1000; position: relative;"src="img/DELETE.png" alt="..."></a>
+					  <div class="fileinput-new thumbnail" data-trigger="fileinput" style=" background: none; border: none; width: 170px; height: 120px;">
+					    <img src="img/SY_WEB_1_03.png" alt="...">
+
+					  </div>
+					  <div class="fileinput-preview fileinput-exists thumbnail" style="max-width: 170px; max-height: 120px;"></div>
+					  <div>
+					    <span style="display: none;" class="btn btn-default btn-file"><span  class="fileinput-new">Select image</span><span class="fileinput-exists">Change</span><input type="file" name="..."></span>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-3">
+				<div class="fileinput fileinput-new" data-provides="fileinput"><a href="#" class="fileinput-exists" data-dismiss="fileinput"><img style="width: 30px; margin-left: 79%; margin-bottom: -8%; z-index:1000; position: relative;"src="img/DELETE.png" alt="..."></a>
+					  <div class="fileinput-new thumbnail" data-trigger="fileinput" style=" background: none; border: none; width: 170px; height: 120px;">
+					    <img src="img/SY_WEB_1_03.png" alt="...">
+
+					  </div>
+					  <div class="fileinput-preview fileinput-exists thumbnail" style="max-width: 170px; max-height: 120px;"></div>
+					  <div>
+					    <span style="display: none;" class="btn btn-default btn-file"><span  class="fileinput-new">Select image</span><span class="fileinput-exists">Change</span><input type="file" name="..."></span>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-3">
+				<div class="fileinput fileinput-new" data-provides="fileinput"><a href="#" class="fileinput-exists" data-dismiss="fileinput"><img style="width: 30px; margin-left: 79%; margin-bottom: -8%; z-index:1000; position: relative;"src="img/DELETE.png" alt="..."></a>
+					  <div class="fileinput-new thumbnail" data-trigger="fileinput" style=" background: none; border: none; width: 170px; height: 120px;">
+					    <img src="img/SY_WEB_1_03.png" alt="...">
+
+					  </div>
+					  <div class="fileinput-preview fileinput-exists thumbnail" style="max-width: 170px; max-height: 120px;"></div>
+					  <div>
+					    <span style="display: none;" class="btn btn-default btn-file"><span  class="fileinput-new">Select image</span><span class="fileinput-exists">Change</span><input type="file" name="..."></span>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-3">
+				<div class="fileinput fileinput-new" data-provides="fileinput"><a href="#" class="fileinput-exists" data-dismiss="fileinput"><img style="width: 30px; margin-left: 79%; margin-bottom: -8%; z-index:1000; position: relative;"src="img/DELETE.png" alt="..."></a>
+					  <div class="fileinput-new thumbnail" data-trigger="fileinput" style=" background: none; border: none; width: 170px; height: 120px;">
+					    <img src="img/SY_WEB_1_03.png" alt="...">
+
+					  </div>
+					  <div class="fileinput-preview fileinput-exists thumbnail" style="max-width: 170px; max-height: 120px;"></div>
+					  <div>
+					    <span style="display: none;" class="btn btn-default btn-file"><span  class="fileinput-new">Select image</span><span class="fileinput-exists">Change</span><input type="file" name="..."></span>
+						</div>
+					</div>
+				</div>
+
+
 
 		</div>
-<!--IMAGENES-->
+
 		<div class="row form-group" > <h1 class="blueTitle" > </h1></div>
-		<div class="row grsec form-group" > <h1 class="blueTitle" >INFORMACIÓN SECUNDARIA DEL SINIESTRO	</h1>
-			<div class="col-xs-10">
-				<form class="goButton" action="imageform.asp">
-  				<input type="file" name="" accept="image/*">
-  				<input type="submit" class="goButton">
-				</form>
-			</div>
+		<div style="padding-bottom: 25px;" class="row grsec form-group" > <h1 class="blueTitle" >Comentarios</h1>
+			 <div class="col-xs-8"><textarea class="formStyle textarea1"></textarea></div>
+
 		</div>
-		<div class="row form-group" > <h1 class="blueTitle" > </h1></div>
-		<div class="row grsec form-group" > <h1 class="blueTitle" >DOCUMENTACIÓN IMPORTANTE</h1></div>
-		<div class="row form-group" > <h1 class="blueTitle" >-button-</h1></div>
+
+
+
+		<div class="col-md-1 col-md-offset-5" >
+        <input style="width:50px; margin: 0 auto; " type="submit" value="" class="nextButton"></input>
+	    </div>
+		
 		</form>
 	</div>
 
@@ -197,5 +314,9 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
   <script src="bootstrap/js/bootstrap.min.js"></script>
   <script src="js/bootstrap-datepicker.js"></script>
+  <script src="js/jasny-bootstrap.min.js"></script>
+  <script src="js/auto-resize.js"></script>
   <script src="js/fecha.js"></script>
+</head>
+
 </html>
