@@ -119,13 +119,54 @@ margin-left: 20px;
 .footerLine
 {
   position: relative;
-  margin-top: 150px;
+  margin-top: 0px;
   margin: 0 auto;
   border-bottom-style : solid;
   border-bottom-color : #808080;
   border-bottom-color : rgba(128, 128, 128, 1);
   border-bottom-width : 1px;
 }
+
+.formJoin
+{
+  padding-left:0px !important;
+  padding-right:0px !important;
+  margin-left: -1px !important;
+}
+
+.jelly-form input[type="text"]{
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #333333;
+  box-sizing: border-box;
+  outline: none;
+   
+  
+  padding: 0.2em 0.6em;
+  width: 100%;
+}
+
+.jelly-form{
+  position: relative;
+}
+.jelly-form:before, .jelly-form:after{
+  content:'';
+  display: block;
+   
+  position: absolute;
+  bottom: 23px;
+   
+  height: 6px;
+  border-left: 1px solid #333333;
+}
+.jelly-form:before{
+  left: 0;
+}
+.jelly-form:after{
+  right: 0;
+}
+
 
 
 
